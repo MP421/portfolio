@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <section className="flex flex-col justify-center mt-20 w-[90%] mx-auto text-[#1E1E1E]" id="contact">
         <h3 className="text-center text-3xl font-bold">Send me a message</h3>
-        <p className="w-1/2 mx-auto mt-2 mb-4 text-lg font-bold tracking-wider">
+        <p className="w-1/2 mx-auto mt-2 mb-4 text-lg font-bold tracking-wide">
           If you have a project in mind or a question or proposal, or would just like to say
           hello? Get in touch by emailing me at -email- or through filling in the form below.
         </p>
