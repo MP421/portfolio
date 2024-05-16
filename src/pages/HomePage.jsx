@@ -6,12 +6,12 @@ import Footer from '../components/home-page/Footer';
 
 const HomePage = () => {
   return (
-    <>
+    <section className="font-sansinter" id="home-page-bg">
       <Hero />
       <Banner />
       <Contact />
       <Footer />
-    </>
+    </section>
   )
 }
 

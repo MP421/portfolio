@@ -6,6 +6,12 @@
   scroll-behavior: smooth;
 }
 
+#antur-header {
+  background-image: url('./assets/antur/img/snowdon-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 #home-page-bg { 
   width: 100%;
   height: 100%;
