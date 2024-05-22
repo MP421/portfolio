@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../components/rhestr/Navbar'
 
 const Rhestr = () => {
   return (
     <>
-      <p>Rhestr</p>
+      <Navbar />
     </>
   )
 }

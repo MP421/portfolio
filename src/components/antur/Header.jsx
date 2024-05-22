@@ -10,16 +10,16 @@ const Header = () => {
           <p className="font-black text-4xl">Antur</p>
           <ul className="flex items-center gap-10 text-lg">
             <li className="hover:text-slate-300 duration-100">
-              <a href="#">Places To Go</a>
+              <a href="#places-to-go">Places To Go</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#">Things To Do</a>
+              <a href="#things-to-do">Things To Do</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#">About North Wales</a>
+              <a href="#about">About North Wales</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

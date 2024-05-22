@@ -6,24 +6,24 @@ import caernarfon from '../../assets/antur/img/caernarfon.jpg'
 
 const PlacesToGo = () => {
   return (
-    <section className="my-20 w-[85%] mx-auto">
+    <section className="my-20 w-[85%] mx-auto" id="places-to-go">
       <p className="text-2xl font-bold">Places To Go</p>
       <p className="text-xl font-bold mt-1 mb-6">Popular Cities in North Wales</p>
-      <ul className="flex items-center justify-evenly">
-        <li className="">
-          <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[300px] w-[300px]" />
+      <ul className="flex flex-col items-center justify-between md:flex-row">
+        <li>
+          <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
           <p className="text-md font-bold mt-2">Wrexham</p>
         </li>
-        <li className="">
-          <img src={ llandudno } alt="" className="rounded-md object-cover object-center h-[300px] w-[300px]" />
+        <li>
+          <img src={ llandudno } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
           <p className="text-md font-bold mt-2">Llandudno</p>
         </li>
-        <li className="">
-          <img src={ bangor } alt="" className="rounded-md object-cover object-center h-[300px] w-[300px]" />
+        <li>
+          <img src={ bangor } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
           <p className="text-md font-bold mt-2">Bangor</p>
         </li>
-        <li className="">
-          <img src={ caernarfon } alt="" className="rounded-md object-cover object-center h-[300px] w-[300px]" />
+        <li>
+          <img src={ caernarfon } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
           <p className="text-md font-bold mt-2">Caernarfon</p>
         </li>
       </ul>
