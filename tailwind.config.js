@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         sansinter: ['Inter', 'sans-serif'],
         sanspoppins: ['Poppins', 'sans-serif'],
+        sansmontserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },
