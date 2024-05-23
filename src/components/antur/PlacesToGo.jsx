@@ -9,7 +9,7 @@ const PlacesToGo = () => {
     <section className="my-20 w-[85%] mx-auto" id="places-to-go">
       <p className="text-2xl font-bold">Places To Go</p>
       <p className="text-xl font-bold mt-1 mb-6">Popular Cities in North Wales</p>
-      <ul className="flex flex-col items-center justify-between md:flex-row">
+      <ul className="flex gap-6 items-center justify-between sm:flex-col lg:flex-row">
         <li>
           <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
           <p className="text-md font-bold mt-2">Wrexham</p>

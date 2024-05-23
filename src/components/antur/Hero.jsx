@@ -4,7 +4,7 @@ import canyoning from '../../assets/antur/img/canyoning.jpg';
 
 const Hero = () => {
   return (
-    <section className="my-20">
+    <section className="my-20" id="hero">
       <div className="flex items-center justify-between w-full mb-20">
         <img src={ rafting } className="w-1/2 h-auto object-cover object-center" alt="TNR Outdoors whitewater rafting Llangollen" />
         <div className="w-1/3 flex flex-col mx-auto">

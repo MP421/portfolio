@@ -6,6 +6,7 @@ import PlacesToGo from '../components/antur/PlacesToGo'
 import ThingsToDo from '../components/antur/ThingsToDo'
 import LatestEvents from '../components/antur/LatestEvents'
 import FAQ from '../components/antur/FAQ'
+import Footer from '../components/home-page/Footer'
 
 const Antur = () => {
   return (
@@ -17,6 +18,7 @@ const Antur = () => {
       <ThingsToDo />
       <LatestEvents />
       <FAQ />
+      <Footer />
     </section>
   )
 }

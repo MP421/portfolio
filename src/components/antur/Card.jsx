@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ children }) => {
   return (
-    <li className="border-2 border-slate-200 rounded-xl overflow-hidden mb-6 h-[500px] w-[450px]">
+    <li className="bg-slate-50 rounded-lg shadow-md overflow-hidden h-96">
       {children}
     </li>
   )

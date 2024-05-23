@@ -30,7 +30,7 @@ const Header = () => {
           <p className="text-xl mt-2 mb-12">
             <span className="italic">Antur</span> n. <span className="text-[#FF1717]">adventure</span>
           </p>
-          <a href="#" className="text-3xl font-bold border-2 border-slate-50 rounded-lg px-14 py-2 hover:text-slate-300 hover:border-slate-300 duration-100">SEE THE SIGHTS</a>
+          <a href="#hero" className="text-3xl font-bold border-2 border-slate-50 rounded-lg px-14 py-2 hover:text-slate-300 hover:border-slate-300 duration-100">SEE THE SIGHTS</a>
         </div>
       </section>
     </header>

@@ -3,7 +3,7 @@ import React from 'react'
 const Newsletter = () => {
   return (
     <section className="bg-slate-950 text-slate-50 p-20" id="contact">
-      <section className="flex items-center justify-between w-[85%] mx-auto">
+      <section className="flex items-center justify-between w-[85%] mx-auto sm:flex-col lg:flex-row">
         <section className="w-1/2">
           <p className="text-2xl font-bold mb-6">Antur Newsletter</p>
           <p className="text-lg">Subscribe to our newsletter to get the latest news on events and adventures in North Wales.</p>
