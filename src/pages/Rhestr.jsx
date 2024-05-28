@@ -12,7 +12,7 @@ import Footer from '../components/home-page/Footer'
 
 const Rhestr = () => {
   return (
-    <section className="bg-indigo-200 text-indigo-900 font-sansmontserrat">
+    <section className="bg-indigo-100 text-indigo-950 font-sansmontserrat">
       <Navbar />
       <Hero />
       <Banner />
