@@ -10,6 +10,8 @@ export default {
         sansinter: ['Inter', 'sans-serif'],
         sanspoppins: ['Poppins', 'sans-serif'],
         sansmontserrat: ['Montserrat', 'sans-serif'],
+        sansfredoka: ['Fredoka', 'sans-serif'],
+        serifalexbrush: ['Alex Brush', 'serif'],
       },
     },
   },

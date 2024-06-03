@@ -17,7 +17,7 @@ const Navlist = () => {
         <a href="https://socittome.net">SOC IT TO ME</a>
       </li>
       <li className="h-[75px] rotate-2 hover:rotate-0 hover:text-7xl hover:underline duration-100">
-        <Link to='/samspatisseries'>SAM'S PATISSERIES</Link>
+        <Link to='/samspatisseries'>SAM'S PATISSERIE</Link>
       </li>
     </ul>
   )
