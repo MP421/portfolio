@@ -2,17 +2,17 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className="w-full">
+    <section className="w-full my-20">
       <div className="w-[75%] flex flex-col items-center justify-between mx-auto">
-        <p className="text-lg font-semibold">
+        <p className="text-lg font-semibold mb-8">
           Sign up to Sam's Patisserie newsletter to
           <br/>
           stay up to date on our latest specialties
         </p>
-        <form action="" className="flex">
-          <input type="email" name="" className="bg-orange-50" id="" placeholder="Email address" />
+        <form action="" className="relative">
+          <input type="email" name="" className="bg-orange-50 py-3 px-6 w-[350px] rounded-full" id="" placeholder="Email address" />
           <label htmlFor="">
-            <i className="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right absolute top-50% translate-y-[50%] right-0 translate-x-[-50%] bg-orange-500 p-1 rounded-full cursor-pointer"></i>
           </label>
         </form>
       </div>

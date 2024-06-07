@@ -8,18 +8,18 @@ const Mission = () => {
   return (
     <section className="w-full bg-orange-100 py-28">
       <div className="w-[75%] flex items-center justify-between mx-auto">
-        <div className="h-[300px] w-[450px] grid grid-cols-3 grid-rows-2 gap-4">
+        <div className="h-[300px] w-[450px] grid grid-cols-3 grid-rows-2 gap-6">
           <div className="col-span-2">
-            <img src={ Macaron1 } alt="" className="h-[150px] w-[300px] object-cover object-center rounded-3xl" />
+            <img src={ Macaron1 } alt="" className="h-[150px] w-[300px] object-cover object-center rounded-2xl" />
           </div>
           <div className="col-span-1">
-            <img src={ Cupcake1 } alt="" className="h-[150px] w-[150px] object-cover object-center rounded-3xl" />
+            <img src={ Cupcake1 } alt="" className="h-[150px] w-[150px] object-cover object-center rounded-2xl" />
           </div>
           <div className="col-span-1">
-            <img src={ Donut2 } alt="" className="h-[150px] w-[150px] object-cover object-center rounded-3xl" />
+            <img src={ Donut2 } alt="" className="h-[150px] w-[150px] object-cover object-center rounded-2xl" />
           </div>
           <div className="col-span-2">
-            <img src={ Muffin1 } alt="" className="h-[150px] w-[300px] object-cover object-center rounded-3xl" />
+            <img src={ Muffin1 } alt="" className="h-[150px] w-[300px] object-cover object-center rounded-2xl" />
           </div>
         </div>
         <div className="w-1/2">
