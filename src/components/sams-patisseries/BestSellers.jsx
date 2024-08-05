@@ -5,7 +5,7 @@ import Croissant1 from '../../assets/sams-patisseries/croissant-1.jpg'
 
 const BestSellers = () => {
   return (
-    <section className="w-full h-[550px] flex flex-col items-center justify-between mx-auto relative">
+    <section className="w-full h-[550px] flex flex-col items-center justify-between mx-auto relative" id="best-sellers">
       <div className="w-full h-full absolute top-0 left-0">
         <img src={ Cupcake1 } alt="" className="w-full h-full object-cover object-center" />
       </div>

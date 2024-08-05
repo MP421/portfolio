@@ -6,7 +6,7 @@ import Muffin1 from '../../assets/sams-patisseries/muffin-1.jpg'
 
 const Mission = () => {
   return (
-    <section className="w-full bg-orange-100 py-28">
+    <section className="w-full bg-orange-100 py-28" id="our-story">
       <div className="w-[75%] flex items-center justify-between mx-auto">
         <div className="h-[300px] w-[450px] grid grid-cols-3 grid-rows-2 gap-6">
           <div className="col-span-2">

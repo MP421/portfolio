@@ -5,7 +5,7 @@ import Donut3 from '../../assets/sams-patisseries/donut-3.jpg'
 
 const Services = () => {
   return (
-    <section className="w-[75%] flex flex-col items-center justify-between mx-auto my-24">
+    <section className="w-[75%] flex flex-col items-center justify-between mx-auto my-24" id="services">
       <p className="text-lg font-medium border-b-4 border-yellow-500 pb-3">Services</p>
       <ul className="w-full flex items-center justify-between gap-12 mt-12">
         <li className="w-1/3 h-[300px] flex flex-col items-center border-4 border-yellow-500 rounded-3xl overflow-hidden shadow-lg">

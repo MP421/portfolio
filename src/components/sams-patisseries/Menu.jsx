@@ -2,7 +2,7 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <section className="w-full mt-32">
+    <section className="w-full mt-32" id="menu">
       <div className="w-[75%] bg-yellow-500 flex flex-col items-center justify-between mx-auto rounded-3xl py-14 px-32">
         <p className="text-lg font-medium border-b-4 border-orange-50 pb-3 mb-8">Full Menu</p>
         <div className="p-6 bg-orange-50 rounded-2xl mb-10">

@@ -15,10 +15,16 @@ const Header = () => {
               <a href="#things-to-do">Things To Do</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
+              <a href="#latest-events">Latest Events</a>
+            </li>
+            <li className="hover:text-slate-300 duration-100">
               <a href="#about">About North Wales</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#contact">Contact</a>
+              <a href="#faq">Info</a>
+            </li>
+            <li className="hover:text-slate-300 duration-100">
+              <a href="#contact">Keep Up To Date</a>
             </li>
           </ul>
         </div>

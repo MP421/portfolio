@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className="w-full my-20">
+    <section className="w-full my-20" id="newsletter">
       <div className="w-[75%] flex flex-col items-center justify-between mx-auto">
         <p className="text-lg font-semibold mb-8">
           Sign up to Sam's Patisserie newsletter to

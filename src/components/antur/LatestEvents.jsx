@@ -8,7 +8,8 @@ import aquasphere from '../../assets/antur/img/aquasphere-snowman-swim.jpeg'
 const LatestEvents = () => {
   return (
     <section className="my-20 w-[85%] mx-auto" id="latest-events">
-      <p className="text-2xl font-bold text-center md:text-left mb-6">Latest Events</p>
+      <p className="text-2xl font-bold text-center md:text-left">Latest Events</p>
+      <p className="text-xl font-bold mt-1 mb-6 text-center md:text-left">What's happening in North Wales</p>
       <ul className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-start">
         <EventsCard>
           <img src={llangollen} alt="Llangollen International Musical Eisteddfod" className="h-48 w-full object-cover object-center" />

@@ -5,7 +5,7 @@ import Stephen from '../../assets/sams-patisseries/stephen.jpg'
 
 const Reviews = () => {
   return (
-    <section className="w-[75%] flex justify-between mx-auto bg-[#D8658A] rounded-xl mt-20 p-10 gap-12">
+    <section className="w-[75%] flex justify-between mx-auto bg-[#D8658A] rounded-xl mt-20 p-10 gap-12 shadow-lg" id="reviews">
       <div className="w-1/3 flex flex-col gap-2">
         <img src={ Emily } alt="" className="h-[75px] w-[75px] rounded-full object-cover object-center" />
         <p className="font-medium">Emily R.</p>
