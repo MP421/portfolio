@@ -9,22 +9,28 @@ const Header = () => {
           <p className="font-black text-4xl">Antur</p>
           <ul className="flex items-center gap-10 text-lg">
             <li className="hover:text-slate-300 duration-100">
-              <a href="#places-to-go">Places To Go</a>
+              <a href="#articles">Explore</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#things-to-do">Things To Do</a>
+              <a href="#places-to-go">Destinations</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#latest-events">Latest Events</a>
+              <a href="#things-to-do">Activities</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#about">About North Wales</a>
+              <a href="#latest-events">Events</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#faq">Info</a>
+              <a href="#hero">About</a>
             </li>
             <li className="hover:text-slate-300 duration-100">
-              <a href="#contact">Keep Up To Date</a>
+              <a href="#testimonials">Reviews</a>
+            </li>
+            <li className="hover:text-slate-300 duration-100">
+              <a href="#faq">Questions</a>
+            </li>
+            <li className="hover:text-slate-300 duration-100">
+              <a href="#contact">Latest</a>
             </li>
           </ul>
         </div>
@@ -33,7 +39,7 @@ const Header = () => {
             <span className="italic">Antur</span> in <span className="text-[#FF1717]">North Wales</span>
           </p>
           <p className="text-xl mt-2 mb-12">
-            <span className="italic">Antur</span> n. <span className="text-[#FF1717]">adventure</span>
+            Antur <em>n. adventure</em>
           </p>
           <a href="#hero" className="text-3xl font-bold border-2 border-slate-50 rounded-lg px-14 py-2 hover:text-slate-300 hover:border-slate-300 duration-100">SEE THE SIGHTS</a>
         </div>

@@ -7,9 +7,9 @@ const Navlist = () => {
       <li className="h-[75px] rotate-2 hover:rotate-0 hover:text-7xl hover:underline duration-100">
         <Link to='/antur'>ANTUR</Link>
       </li>
-      <li className="h-[75px] rotate-2 hover:rotate-0 hover:text-7xl hover:underline duration-100">
+      {/* <li className="h-[75px] rotate-2 hover:rotate-0 hover:text-7xl hover:underline duration-100">
         <Link to='/aisummariser'>AI SUMMARISER</Link>
-      </li>
+      </li> */}
       <li className="h-[75px] rotate-2 hover:rotate-0 hover:text-7xl hover:underline duration-100">
         <Link to='/rhestr'>RHESTR</Link>
       </li>

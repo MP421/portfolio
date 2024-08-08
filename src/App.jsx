@@ -11,12 +11,12 @@ import Error404 from './pages/Error404';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout />}>
-      <Route index element={<HomePage />} />)
-      <Route path='/antur' element={<Antur />} />)
-      <Route path='/aisummariser' element={<AISummariser />} />)
+      <Route index element={<HomePage />} />
+      <Route path='/antur' element={<Antur />} />
+      <Route path='/aisummariser' element={<AISummariser />} />
       <Route path='/rhestr' element={<Rhestr />} />)
-      <Route path='/samspatisseries' element={<SamsPatisseries />} />)
-      <Route path='*' element={<Error404 />} />)
+      <Route path='/samspatisseries' element={<SamsPatisseries />} />
+      <Route path='*' element={<Error404 />} />
     </Route>
   )
 );

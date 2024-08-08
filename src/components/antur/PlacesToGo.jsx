@@ -11,19 +11,19 @@ const PlacesToGo = () => {
       <p className="text-xl font-bold mt-1 mb-6 text-center md:text-left">Popular Cities in North Wales</p>
       <ul className="flex gap-6 items-center justify-between sm:flex-col lg:flex-row">
         <li>
-          <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
+          <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
           <p className="text-md font-bold mt-2">Wrexham</p>
         </li>
         <li>
-          <img src={ llandudno } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
+          <img src={ llandudno } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
           <p className="text-md font-bold mt-2">Llandudno</p>
         </li>
         <li>
-          <img src={ bangor } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
+          <img src={ bangor } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
           <p className="text-md font-bold mt-2">Bangor</p>
         </li>
         <li>
-          <img src={ caernarfon } alt="" className="rounded-md object-cover object-center h-[320px] w-[320px]" />
+          <img src={ caernarfon } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
           <p className="text-md font-bold mt-2">Caernarfon</p>
         </li>
       </ul>
