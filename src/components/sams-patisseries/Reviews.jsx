@@ -1,88 +1,56 @@
 import React from 'react'
-import Emily from '../../assets/sams-patisseries/emily.jpg'
-import James from '../../assets/sams-patisseries/james.jpg'
-import Stephen from '../../assets/sams-patisseries/stephen.jpg'
+import lila from '../../assets/sams-patisseries/lilamontgomery.jpg'
+import ava from '../../assets/sams-patisseries/avasinclair.jpg'
+import maya from '../../assets/sams-patisseries/mayathompson.jpg'
 
-const Reviews = () => {
+export default function Reviews() {
   return (
-    <section className="w-[75%] flex justify-between mx-auto bg-[#D8658A] rounded-xl mt-20 p-10 gap-12 shadow-lg" id="reviews">
-      <div className="w-1/3 flex flex-col gap-2">
-        <img src={ Emily } alt="" className="h-[75px] w-[75px] rounded-full object-cover object-center" />
-        <p className="font-medium">Emily R.</p>
-        <ul className="flex items-center">
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-regular fa-star text-yellow-400"></i>
-          </li>
-        </ul>
-        <p className="tracking-wide">
-          "Sam's Patisserie is a hidden gem! The pastries are not only beautiful but absolutely delicious. Every bite
-          is a perfect blend of flavor and texture. Highly recommend the almond croissants!"
-        </p>
-      </div>
-      <div className="w-1/3 flex flex-col gap-2">
-        <img src={ James } alt="" className="h-[75px] w-[75px] rounded-full object-cover object-center" />
-        <p className="font-medium">James H.</p>
-        <ul className="flex items-center">
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-        </ul>
-        <p className="tracking-wide">
-          "I am in love with Sam's Patisserie! The quality and freshness of the ingredients are evident in every pastry.
-          The macarons are a must-try - they melt in your mouth and leave you wanting more."
-        </p>
-      </div>
-      <div className="w-1/3 flex flex-col gap-2">
-        <img src={ Stephen } alt="" className="h-[75px] w-[75px] rounded-full object-cover object-center" />
-        <p className="font-medium">Stephen L.</p>
-        <ul className="flex items-center">
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-star text-yellow-400"></i>
-          </li>
-        </ul>
-        <p className="tracking-wide">
-          "From the moment you walk into Sam's Patisserie, you know you're in for a treat. The atmosphere is warm and inviting,
-          and the pastries are out of this world. My personal favorite is the chocolate éclairs - simply divine!"
-        </p>
+    <section className="w-[70%] mx-auto">
+      <p className="text-[#B75E38] text-center mb-8">REVIEWS</p>
+      <div className="flex items-center justify-between gap-20">
+        <div className="w-1/3 h-[300px]">
+          <div className="flex items-center gap-4">
+            <img src={lila} className="h-[100px] w-[100px] object-cover object-center rounded-full" alt="" />
+            <div>
+              <p className="text-lg">Lila Montgomery</p>
+              <p>7 reviews</p>
+            </div>
+          </div>
+          <p className="mt-4">
+            Sam's Patisserie is a gem! The aroma of freshly baked goods hits you the moment
+            you walk in. Their pastries are always fresh and delicious, and the staff is
+            incredibly friendly and attentive. It's my go-to spot for a sweet treat!
+          </p>
+        </div>
+        <div className="w-1/3 h-[300px]">
+          <div className="flex items-center gap-4">
+            <img src={ava} className="h-[100px] w-[100px] object-cover object-center rounded-full" alt="" />
+            <div>
+              <p className="text-lg">Ava Sinclair</p>
+              <p>3 reviews</p>
+            </div>
+          </div>
+          <p className="mt-4">
+            Sam's Patisserie never disappoints! The bread is always warm and fresh, and their
+            cakes are to die for. The service is top-notch, with staff who go out of their
+            way to make you feel welcome. Highly recommend!
+          </p>
+        </div>
+        <div className="w-1/3 h-[300px]">
+          <div className="flex items-center gap-4">
+            <img src={maya} className="h-[100px] w-[100px] object-cover object-center rounded-full" alt="" />
+            <div>
+              <p className="text-lg">Maya Thompson</p>
+              <p>4 reviews</p>
+            </div>
+          </div>
+          <p className="mt-4">
+            Sam's Patisserie is simply amazing! The freshness of their baked goods is unmatched,
+            and the flavors are exquisite. The staff is always cheerful and ready to help. It's
+            a delightful experience every time I visit.
+          </p>
+        </div>
       </div>
     </section>
   )
 }
-
-export default Reviews

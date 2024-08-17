@@ -1,29 +1,25 @@
 import React from 'react'
 import Navbar from '../components/sams-patisseries/Navbar'
 import Hero from '../components/sams-patisseries/Hero'
-import Mission from '../components/sams-patisseries/Mission'
-import Services from '../components/sams-patisseries/Services'
-import BestSellers from '../components/sams-patisseries/BestSellers'
+import About from '../components/sams-patisseries/About'
+import Team from '../components/sams-patisseries/Team'
 import Menu from '../components/sams-patisseries/Menu'
-import Specialties from '../components/sams-patisseries/Specialties'
+import Gallery from '../components/sams-patisseries/Gallery'
 import Reviews from '../components/sams-patisseries/Reviews'
-import Newsletter from '../components/sams-patisseries/Newsletter'
-import DiscountCode from '../components/sams-patisseries/DiscountCode'
+import Ankle from '../components/sams-patisseries/Ankle'
 import Footer from '../components/home-page/Footer'
 
 const SamsPatisseries = () => {
   return (
-    <section className="font-sansfredoka bg-white text-slate-700">
+    <section className="font-sansfrancoisone bg-slate-50 text-slate-600">
       <Navbar />
       <Hero />
-      <Mission />
-      <Services />
-      <BestSellers />
+      <About />
+      <Team />
       <Menu />
-      <Specialties />
+      <Gallery />
       <Reviews />
-      <Newsletter />
-      <DiscountCode />
+      <Ankle />
       <Footer />
     </section>
   )

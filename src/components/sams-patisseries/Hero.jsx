@@ -1,25 +1,26 @@
 import React from 'react'
-import Croissant2 from '../../assets/sams-patisseries/croissant-2.jpg'
+import home from '../../assets/sams-patisseries/home.jpg'
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <section className="w-[75%] flex items-center justify-between mx-auto my-32">
-      <div className="w-1/2">
-        <p className="text-yellow-500 text-6xl font-medium">The first choice in pastry</p>
-        <p className="text-lg tracking-wider mt-8 mb-14">
-          Indulge in the exquisite artistry of our high-end patisserie, where handcrafted confections
-          blend French elegance with tantalizing flavors to create a symphony of sweetness.
+    <section className="w-full h-[750px] bg-cover bg-center relative" style={{ backgroundImage: `url(${home})` }} id="hero">
+      <div className="w-1/2 h-full absolute top-0 left-0 text-slate-50 bg-[#b75e38a6] backdrop-blur-md flex flex-col items-end justify-center gap-16 text-right pr-8">
+        <p className="font-medium text-5xl">
+          The first choice
+          <br/>
+          in mornings
         </p>
-        <a href="#menu" className="flex items-center justify-center bg-yellow-500 text-xl font-medium w-[300px] py-3 rounded-full">
-          <p className="mr-20">Order Now</p>
-          <i className="fa-solid fa-arrow-right"></i>
-        </a>
-      </div>
-      <div className="w-1/2">
-        <img src={ Croissant2 } alt="A delicious croissant" className="object-cover object-center" />
+        <p className="text-xl">
+          Indulge in the exquisite artistry of our high
+          <br/>
+          end patisserie, where handcrafted confections
+          <br/>
+          blend French elegance with tantalizing flavors
+          <br/>
+          to create a symphony of sweetness.
+        </p>
+        <p className="text-4xl">OPEN 6AM DAILY</p>
       </div>
     </section>
   )
 }
-
-export default Hero
