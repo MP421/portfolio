@@ -5,7 +5,7 @@ import maya from '../../assets/sams-patisseries/mayathompson.jpg'
 
 export default function Reviews() {
   return (
-    <section className="w-[70%] mx-auto">
+    <section className="w-[70%] mx-auto mt-20" id="reviews">
       <p className="text-[#B75E38] text-center mb-8">REVIEWS</p>
       <div className="flex items-center justify-between gap-20">
         <div className="w-1/3 h-[300px]">
