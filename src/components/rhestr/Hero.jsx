@@ -1,4 +1,5 @@
 import React from 'react'
+import gif from '../../assets/rhestr/img/sky-productive-man-marking-tasks-as-completed.gif'
 
 const Hero = () => {
   return (
@@ -18,8 +19,8 @@ const Hero = () => {
         </p>
         <a href="#" className="bg-indigo-950 text-indigo-100 text-2xl font-bold rounded-lg px-12 py-4">Get Started For Free</a>
       </div>
-      <div className="w-1/2 relative">
-        <div className="h-[300px] w-[450px] border-4 border-indigo-950 rounded-2xl bg-indigo-950 absolute top-[50%] right-0 translate-y-[-65%]"></div>
+      <div className="w-1/2">
+        <img src={gif} alt="productive person marking tasks as completed" />
       </div>
     </section>
   )
