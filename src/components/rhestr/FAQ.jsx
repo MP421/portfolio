@@ -2,14 +2,14 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <section className="w-[80%] mx-auto" id="faq">
+    <section className="w-[80%] h-[750px] mx-auto" id="faq">
       <div className="collapse collapse-plus">
         <input type="radio" name="my-accordion-3" /> 
         <div className="collapse-title text-xl font-medium">
           What is rhestr?
         </div>
         <div className="collapse-content"> 
-          <p>rhestr allows you to organize your task list into a helpful register to help you get things done, breaking down projects into steps and accomplishing your goals with ease.</p>
+          <p>rhestr allows you to organize your bookmarks into a helpful register to help you get things done, breaking down projects into steps and accomplishing your goals with ease.</p>
         </div>
       </div>
       <div className="collapse collapse-plus">
@@ -29,7 +29,7 @@ const FAQ = () => {
         <div className="collapse-content"> 
           <p>rhestr will turn a big project into a register of smaller steps giving you and your team super powers!</p>
           <ul className="list-disc">
-            <li className="ml-4">Organize your tasks</li>
+            <li className="ml-4">Organize your bookmarks</li>
             <li className="ml-4">Control your focus</li>
             <li className="ml-4">Prioritize steps</li>
             <li className="ml-4">Supercharge your productivity</li>

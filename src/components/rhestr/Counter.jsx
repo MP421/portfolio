@@ -5,7 +5,7 @@ import hugo_williams from '../../assets/rhestr/img/hugowilliams.jpg'
 
 const Counter = () => {
   return (
-    <section className="flex items-center justify-center w-[80%] h-[150px] mx-auto bg-blue-200 rounded-xl border-4 border-indigo-950">
+    <section className="flex items-center justify-center w-[80%] h-[150px] mx-auto bg-blue-100 rounded-xl border-2 border-indigo-950">
       <ul className="flex items-center">
         <li className="-mr-8">
           <img src={ evan_jones } className="h-20 w-20 object-cover rounded-full border-4 border-indigo-950" alt="" />
