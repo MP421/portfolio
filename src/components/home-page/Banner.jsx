@@ -11,7 +11,7 @@ import figma_icon from '../../assets/home-page/figma.svg';
 
 const Banner = () => {
   return (
-    <ul className="flex items-center justify-evenly bg-[#1E1E1E] text-[#39AEF0] h-[180px]">
+    <ul className="flex items-center justify-evenly bg-[#1E1E1E] text-[#5190e0] h-[180px] font-bold">
       <li className="flex flex-col items-center text-sm">
         <img src={ html_icon } alt="" className="mb-3" />
         HTML
