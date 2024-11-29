@@ -1,24 +1,24 @@
 {
   "builds": [
     {
-      "src": "server/server.js",
+      "src": "/server/server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "package.json",
+      "src": "/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "/dist"
       }
     }
   ],
   "routes": [
     {
-      "src": "(.*)",
+      "src": "/(.*)",
       "dest": "/server/server.js"
     },
     {
-      "src": "(.*)",
+      "src": "/(.*)",
       "dest": "/src/$1"
     }
   ]
