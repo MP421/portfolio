@@ -7,17 +7,17 @@ const Footer = () => {
       <ul className="flex items-center justify-center gap-6">
         <li>
           <a href="" target="_blank">
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
         </li>
         <li>
           <a href="" target="_blank">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            <i class="fa-brands fa-bluesky"></i>
           </a>
         </li>
       </ul>
