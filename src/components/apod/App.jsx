@@ -3,7 +3,7 @@ import refresh from '../../assets/apod/refresh.svg';
 import scrolltobottom from '../../assets/apod/scroll-to-bottom.svg';
 
 const API = 'https://api.nasa.gov/planetary/apod?api_key=';
-const key = 'bplcOZ19S9bkVxEvQV1Ryfvx3vEvbw9dcddcL9ti';
+const key = import.meta.env.VITE_APOD;
 const count = '&count=1';
 
 function App() {

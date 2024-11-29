@@ -21,7 +21,7 @@ const Contact = () => {
     console.log(formData);
 
     try {
-      const response = await fetch('http://localhost:3001/api/send-email', {
+      const response = await fetch('https://fullstackspecialist.vercel.app/api/send-email', { // http://localhost:3001/api/send-email
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
