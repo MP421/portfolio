@@ -85,17 +85,17 @@ function App() {
             </div>
             <ul className="flex items-center gap-6">
               <li>
-                <a href="" target="_blank">
+                <a href="https://github.com/MP421" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="" target="_blank">
+                <a href="https://www.linkedin.com/in/jonathan-owen-fullstack-specialist/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="" target="_blank">
+                <a href="https://bsky.app/profile/fullstackjon.bsky.social" target="_blank">
                   <i class="fa-brands fa-bluesky"></i>
                 </a>
               </li>
