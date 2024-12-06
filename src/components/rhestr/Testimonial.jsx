@@ -6,8 +6,8 @@ import hugo_williams from '../../assets/rhestr/img/hugowilliams.jpg'
 const Testimonial = () => {
   return (
     <section className="flex flex-col items-center gap-10 w-[80%] h-[725px] mx-auto" id="users">
-      <p class="text-3xl font-bold">What Our Users Say</p>
-      <p class="text-lg text-center font-medium">Don't just take our word for it. Take theirs.</p>
+      <p className="text-3xl font-bold">What Our Users Say</p>
+      <p className="text-lg text-center font-medium">Don't just take our word for it. Take theirs.</p>
       <div className="flex items-center justify-between gap-8 mt-16">
         <div className="w-1/3 h-[475px] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl">
           <img src={ evan_jones } alt="" className="mx-auto h-28 w-28 object-cover rounded-full border-2 border-indigo-950 -mt-[60px]" />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import html_icon from '../../assets/home-page/html.svg';
 import css_icon from '../../assets/home-page/css.svg';
 import javascript_icon from '../../assets/home-page/javascript.svg';
@@ -10,46 +10,30 @@ import git_icon from '../../assets/home-page/git.svg';
 import figma_icon from '../../assets/home-page/figma.svg';
 
 const Banner = () => {
-  return (
-    <ul className="flex items-center justify-evenly bg-[#1E1E1E] text-[#5190e0] h-[180px] font-bold">
-      <li className="flex flex-col items-center text-sm">
-        <img src={ html_icon } alt="" className="mb-3" />
-        HTML
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ css_icon } alt="" className="mb-3" />
-        CSS
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ javascript_icon } alt="" className="mb-3" />
-        JavaScript
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ tailwind_icon } alt="" className="mb-3" />
-        tailwind
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ typescript_icon } alt="" className="mb-3" />
-        TypeScript
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ react_icon } alt="" className="mb-3" />
-        React
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ ai_icon } alt="" className="mb-3" />
-        AI
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ git_icon } alt="" className="mb-3" />
-        Git
-      </li>
-      <li className="flex flex-col items-center text-sm">
-        <img src={ figma_icon } alt="" className="mb-3" />
-        Figma
-      </li>
-    </ul>
-  )
-}
+  const items = [
+    { icon: html_icon, label: 'HTML' },
+    { icon: css_icon, label: 'CSS' },
+    { icon: javascript_icon, label: 'JavaScript' },
+    { icon: tailwind_icon, label: 'Tailwind' },
+    { icon: typescript_icon, label: 'TypeScript' },
+    { icon: react_icon, label: 'React' },
+    { icon: ai_icon, label: 'AI' },
+    { icon: git_icon, label: 'Git' },
+    { icon: figma_icon, label: 'Figma' },
+  ];
 
-export default Banner
+  return (
+    <div className="overflow-hidden bg-[#1E1E1E] h-[150px]">
+      <div className="animate-scroll h-full flex items-center justify-center">
+        {[...items, ...items].map((item, index) => (
+          <li key={index} className="flex flex-col items-center text-md mx-8 whitespace-nowrap">
+            <img src={item.icon} alt={item.label} className="mb-3 h-[32px] object-cover object-center" />
+            {item.label}
+          </li>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Banner;

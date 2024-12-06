@@ -3,8 +3,8 @@ import React from 'react'
 const Pricing = () => {
   return (
     <section className="flex flex-col items-center justify-center gap-12 w-[80%] h-[950px] mx-auto" id="pricing">
-      <p class="text-3xl font-bold">Our pricing plans</p>
-      <p class="text-lg text-center font-medium">
+      <p className="text-3xl font-bold">Our pricing plans</p>
+      <p className="text-lg text-center font-medium">
         We offer flexibility for our users because we know
         <br />
         your needs are dynamic and ever changing
