@@ -11,7 +11,7 @@ const Features = () => {
   };
 
   return (
-    <section className="w-[75%] h-[800px] m-auto flex flex-col items-center gap-12" id="features">
+    <section className="w-[95%] my-16 m-auto flex flex-col items-center gap-12 md:w-[75%]" id="features">
       <h2 className="text-3xl font-bold">Features</h2>
       <p className="text-lg text-center font-medium">
         Our aim is to make it quick and easy for you to access your

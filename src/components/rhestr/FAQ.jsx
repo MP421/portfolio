@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <section className="w-[80%] h-[750px] mx-auto" id="faq">
+    <section className="w-[80%] my-16 mx-auto" id="faq">
       <div className="collapse collapse-plus">
         <input type="radio" name="my-accordion-3" /> 
         <div className="collapse-title text-xl font-medium">

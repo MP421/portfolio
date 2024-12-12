@@ -5,11 +5,11 @@ import hugo_williams from '../../assets/rhestr/img/hugowilliams.jpg'
 
 const Testimonial = () => {
   return (
-    <section className="flex flex-col items-center gap-10 w-[80%] h-[725px] mx-auto" id="users">
+    <section className="flex flex-col items-center gap-10 w-[95%] my-16 mx-auto md:w-[80%]" id="users">
       <p className="text-3xl font-bold">What Our Users Say</p>
       <p className="text-lg text-center font-medium">Don't just take our word for it. Take theirs.</p>
-      <div className="flex items-center justify-between gap-8 mt-16">
-        <div className="w-1/3 h-[475px] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl">
+      <div className="flex flex-col items-center justify-between gap-8 mt-16 md:flex-row">
+        <div className="w-[95%] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl md:w-1/3 md:h-[460px]">
           <img src={ evan_jones } alt="" className="mx-auto h-28 w-28 object-cover rounded-full border-2 border-indigo-950 -mt-[60px]" />
           <div className="p-4">
             <p className="text-xl font-bold">Evan Jones</p>
@@ -22,7 +22,7 @@ const Testimonial = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/3 h-[475px] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl">
+        <div className="my-16 w-[95%] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl md:w-1/3 md:h-[460px] md:m-0">
           <img src={ lucy_evans } alt="" className="mx-auto h-28 w-28 object-cover rounded-full border-2 border-indigo-950 -mt-[60px]" />
           <div className="p-4">
             <p className="text-xl font-bold">Lucy Evans</p>
@@ -35,7 +35,7 @@ const Testimonial = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/3 h-[475px] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl">
+        <div className="w-[95%] bg-slate-50 border-2 border-indigo-950 shadow-lg rounded-xl md:w-1/3 md:h-[460px]">
           <img src={ hugo_williams } alt="" className="mx-auto h-28 w-28 object-cover rounded-full border-2 border-indigo-950 -mt-[60px]" />
           <div className="p-4">
             <p className="text-xl font-bold">Hugo Williams</p>

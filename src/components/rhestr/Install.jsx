@@ -6,14 +6,14 @@ import bgdots from '../../assets/rhestr/img/bg-dots.svg';
 
 const Install = () => {
   return (
-    <section className="flex flex-col gap-8 w-[66%] h-[600px] m-auto text-center" id="install">
+    <section className="flex flex-col gap-8 w-[95%] my-16 m-auto text-center md:w-[66%]" id="install">
       <p className="text-3xl font-bold">Download the extension</p>
       <p className="text-lg text-center font-medium">
         We've got more browsers in the pipeline. Please do let us know if
         <br />
         you've got a favourite you'd like us to prioritize
       </p>
-      <ul className="flex items-center justify-between">
+      <ul className="flex flex-col items-center justify-between gap-8 md:flex-row">
         <li className="h-[300px] w-[300px] flex flex-col items-center justify-center gap-4 p-4 rounded-lg shadow-xl bg-slate-50">
           <img src={ chrome } alt="" />
           <p className="font-semibold">Add to Chrome</p>

@@ -13,7 +13,7 @@ const Newsletter = () => {
       <div>
         <input type="email" className="h-[50px] border-none rounded-[5px] w-[300px] pl-[1em]" placeholder="Enter your email address" />
       </div>
-      <button className="h-[50px] border-none rounded-[5px] bg-[#fa5757] text-white w-[150px] cursor-pointer border-2 border-[#fa5757] hover:bg-white hover:text-[#fa5757]">Contact Us</button>
+      <button className="h-[50px] border-none rounded-[5px] bg-[#fa5757] text-white w-[150px] cursor-pointer border-2 border-[#fa5757] hover:transition-all hover:bg-white hover:text-[#fa5757]">Contact Us</button>
     </div>
   </section>
   )

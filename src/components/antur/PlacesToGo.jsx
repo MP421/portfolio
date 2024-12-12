@@ -9,22 +9,22 @@ const PlacesToGo = () => {
     <section className="my-20 w-[85%] mx-auto" id="places-to-go">
       <p className="text-2xl font-bold text-center md:text-left">Places To Go</p>
       <p className="text-xl font-bold mt-1 mb-6 text-center md:text-left">Popular Cities in North Wales</p>
-      <ul className="flex gap-6 items-center justify-between sm:flex-col lg:flex-row">
+      <ul className="flex flex-col gap-6 items-center justify-between sm:flex-col md:flex-row">
         <li>
           <img src={ wrexham } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
-          <p className="text-md font-bold mt-2">Wrexham</p>
+          <p className="text-md font-bold mt-2 text-center md:text-left">Wrexham</p>
         </li>
         <li>
           <img src={ llandudno } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
-          <p className="text-md font-bold mt-2">Llandudno</p>
+          <p className="text-md font-bold mt-2 text-center md:text-left">Llandudno</p>
         </li>
         <li>
           <img src={ bangor } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
-          <p className="text-md font-bold mt-2">Bangor</p>
+          <p className="text-md font-bold mt-2 text-center md:text-left">Bangor</p>
         </li>
         <li>
           <img src={ caernarfon } alt="" className="rounded-md object-cover object-center h-[240px] w-[320px]" />
-          <p className="text-md font-bold mt-2">Caernarfon</p>
+          <p className="text-md font-bold mt-2 text-center md:text-left">Caernarfon</p>
         </li>
       </ul>
     </section>
