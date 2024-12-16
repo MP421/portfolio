@@ -19,7 +19,7 @@ export default function Testimonial() {
             “North Wales is the ultimate adventure playground, offering breathtaking landscapes and thrilling activities at every turn!”
           </p>
         </div>
-        <div className="w-full md:w-1/3 h-[30%] md:h-[200px] h-[200px] bg-white rounded-2xl py-4 px-3">
+        <div className="w-full md:w-1/3 h-[30%] md:h-[200px] bg-white rounded-2xl py-4 px-3">
           <div className="flex items-center gap-3">
             <div className="flex items-center justify-center bg-blue-300 h-[40px] w-[40px] rounded-full">
               <p className="font-semibold text-xl">J</p>
@@ -33,7 +33,7 @@ export default function Testimonial() {
             “From zip-lining to mountain climbing, North Wales provided an unforgettable adventure holiday that exceeded all my expectations.”
           </p>
         </div>
-        <div className="w-full md:w-1/3 h-[30%] md:h-[200px] h-[200px] bg-white rounded-2xl py-4 px-3">
+        <div className="w-full md:w-1/3 h-[30%] md:h-[200px] bg-white rounded-2xl py-4 px-3">
           <div className="flex items-center gap-3">
             <div className="flex items-center justify-center bg-green-300 h-[40px] w-[40px] rounded-full">
               <p className="font-semibold text-xl">S</p>
